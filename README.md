@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17065076)
 # Markov Chains
 
 Markov Chains are a simple way to model the probability of a sequence of events. In the context of text generation, a Markov Chain can be used to generate text that is similar to a given corpus. The basic idea is to build a dictionary of transitions between words in the corpus, and then use this dictionary to generate new text.
@@ -53,10 +54,10 @@ def generate_text(start_word, num_words):
 
 ## Testing
 
-To test your implementation, you should be able to run the script from the command line and generate text based on a given starting word and number of tokens to generate. For example:
+To test your implementation, you should be able to run the script from the command line and generate text based on a given starting word, number of words to generate, and optionally, the context size. For example:
 
 ```bash
-python3 markov.py "The" 100
+python3 markov.py "The" 100 3
 ```
 
 Given the freedom to choose your own corpus, there are no automated tests for this assignment. That said, the above command will be used to evaluate your implementation.
