@@ -54,10 +54,10 @@ def generate_text(start_word, num_words):
 
 ## Testing
 
-To test your implementation, you should be able to run the script from the command line and generate text based on a given starting word and number of tokens to generate. For example:
+To test your implementation, you should be able to run the script from the command line and generate text based on a given starting word, number of words to generate, and optionally, the context size. For example:
 
 ```bash
-python3 markov.py "The" 100
+python3 markov.py "The" 100 3
 ```
 
 Given the freedom to choose your own corpus, there are no automated tests for this assignment. That said, the above command will be used to evaluate your implementation.
